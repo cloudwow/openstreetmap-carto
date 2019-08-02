@@ -2655,15 +2655,6 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   }
 }
 
-#junctions {
-  [highway = 'motorway_junction'] {
-  }
-
-  [junction = 'yes'],
-  [highway = 'traffic_signals'] {
-
-  }
-}
 
 
 .access::fill {
@@ -2832,18 +2823,6 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   }
 }
 
-  [highway = 'unclassified'],
-  [highway = 'residential'] {
-  }
-
-  [highway = 'track'] {
-  }
-
-  [highway = 'runway'],
-  [highway = 'taxiway'] {
-  }
-}
-
 
 
 .directions::directions {
@@ -2914,16 +2893,6 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       }
     }
 
-    [highway = 'steps'],
-    [highway = 'cycleway'],
-    [highway = 'footway'],
-    [highway = 'path'],
-    [highway = 'track'],
-    [highway = 'bridleway'] {
-      [oneway = 'yes'],
-      [oneway = '-1'] {
-      }
-    }
   }
 }
 
