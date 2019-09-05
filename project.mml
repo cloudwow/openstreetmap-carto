@@ -40,7 +40,7 @@ Stylesheet:
   - water.mss
   - water-features.mss
 Layer:
- - id: landcover	
+  - id: landcover	
     geometry: polygon	
     <<: *extents	
     Datasource:		
